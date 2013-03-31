@@ -1,0 +1,82 @@
+body{
+	
+
+	margin: 100px;
+	padding: 0px;
+	font-family: Arial;
+	background-color:#F98D7F;
+	
+}
+#login_form,#contact_form{
+		width: 290px;
+	height: 200px;
+	margin: 160px auto 0;
+	background:  #FFD485;
+	padding: 1em;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+}
+
+input[type=text],input[type=password],textarea
+{
+	display: block;
+	padding: 5px;
+	width: 280px;
+	border:5px;
+	margin: 10px 5px 0 0;
+    position: relative;
+}
+h1,h2,h3,h4,h5{
+	font-family: Arial Black Arial; 
+	text-align: center;
+	margin-top: 0px;
+    color:black;
+}
+
+
+
+input[type=submit],form a{
+	
+	text-decoration: none;
+	border: none;
+	padding: 6px;
+	background: #749A86;
+	font-size: 13px;
+   color: black;
+   margin-top:2em;
+   margin-right: 1em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-webkit-box-shadow: 0 1px 0 white;
+
+}
+
+
+input[type=submit]:hover,form a :hover{
+cursor: pointer;
+background: #287368;	
+
+}
+
+/* Validation error messages */
+
+.error {
+	color: #393939;
+	font-size: 15px;
+}
+
+fieldset {
+	width: 300px;
+	margin: auto;
+	margin-bottom: 2em;
+	display: block;
+}
+/* Not necessary. Just the "tutorial created by" stuff at the bottom */
+#tutInfo {
+	background: #e3e3e3;
+	border-top: 1px solid white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: .7em .7em .7em 2em;
+}
